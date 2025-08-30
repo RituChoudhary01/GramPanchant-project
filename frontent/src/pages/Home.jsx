@@ -12,7 +12,7 @@ const Home = () => {
   const [photos, setPhotos] = useState([]);
   const [news, setNews] = useState([]);
   const [members, setMembers] = useState([]);
-  const backendUrl = 'http://localhost:5000'
+  const backendUrl = 'https://grampanchant-project.onrender.com'
 
   useEffect(() => {
     const fetchData = async () => {
