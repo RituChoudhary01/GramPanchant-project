@@ -9,7 +9,7 @@ import { v2 as cloudinary } from "cloudinary";
 import panchayatRoutes from "./routes/panchayat.js";
 import photosRoutes from "./routes/photo.js";
 import newsRoutes from "./routes/news.js";
-import membersRoutes from "./routes/Member.js";
+import membersRoutes from "./routes/member.js";
 
 dotenv.config();
 
