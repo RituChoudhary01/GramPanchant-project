@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* Rise and Fall animation */
+@keyframes riseFall {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Move up 20px */
+  }
+}
+
+.animate-rise-fall {
+  animation: riseFall 2s ease-in-out infinite;
+}
+
+
+
